@@ -1,43 +1,57 @@
 
+
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Salbabida of Hope</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
   body { 
-    font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    background: #f0f4f8; 
+    font-family: 'Great Vibes', cursive; 
+    line-height: 1.8; 
+    background: linear-gradient(135deg, #fdfbfb, #ebedee), url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    background-size: cover;
     padding: 5%; 
     margin: 0;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
   }
   h1 { 
     text-align: center; 
-    color: #2c3e50; 
-    font-size: 2em; 
+    color: #34495e; 
+    font-size: 2.5em; 
+    margin-bottom: 20px;
   }
   p { 
-    font-size: 1.1em; 
+    font-size: 1.4em; 
     text-align: center; 
   }
   .link { 
-    color: #2980b9; 
+    color: #6c5ce7; 
     cursor: pointer; 
     text-decoration: underline; 
+    transition: color 0.3s ease;
+  }
+  .link:hover {
+    color: #d63031;
   }
   .hidden { 
     display: none; 
-    margin: 10px auto; 
-    padding: 10px; 
-    background: #eaf2f8; 
-    border-left: 4px solid #2980b9; 
-    max-width: 600px; 
+    margin: 15px auto; 
+    padding: 15px; 
+    background: rgba(255,255,255,0.8); 
+    border-left: 4px solid #6c5ce7; 
+    max-width: 700px; 
+    border-radius: 8px;
+    font-size: 1.2em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   @media (max-width: 600px) {
     body { padding: 15px; }
-    h1 { font-size: 1.5em; }
-    p { font-size: 1em; }
+    h1 { font-size: 2em; }
+    p { font-size: 1.2em; }
   }
 </style>
 <script>
