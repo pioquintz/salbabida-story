@@ -48,6 +48,7 @@ html>
   a {
     color: #8b5e3c;
     text-decoration: underline;
+    transition: color 0.3s ease;
   }
 
   a:hover {
@@ -59,17 +60,16 @@ html>
 
 <div class="poem-container">
   <h1>Salbabida of Hope</h1>
-  <p>In a world where hope seems dim and far,</p>
-  <p>A grain of kindness shines like a star,</p>
-  <p><a href="https://example.com/salbabida" target="_blank">Salbabida</a>, a lifeline thrown,</p>
-  <p>In waters deep, where dreams are sown.</p>
+  <p><a href="https://example.com/hope" target="_blank">In a world where hope seems dim and far,</a></p>
+  <p><a href="https://example.com/kindness" target="_blank">A grain of kindness shines like a star,</a></p>
+  <p><a href="https://example.com/salbabida" target="_blank">Salbabida, a lifeline thrown,</a></p>
+  <p><a href="https://example.com/dreams" target="_blank">In waters deep, where dreams are sown.</a></p>
   <br>
-  <p><a href="https://en.wikipedia.org/wiki/Efren_Pe%C3%B1aflorida" target="_blank">Efren</a>’s heart, a beacon bright,</p>
-  <p>Sharing lessons by day and night,</p>
-  <p>With every child, he casts a line,</p>
-  <p>To guide them forth, their spirits shine.</p>
+  <p><a href="https://en.wikipedia.org/wiki/Efren_Pe%C3%B1aflorida" target="_blank">Efren’s heart, a beacon bright,</a></p>
+  <p><a href="https://example.com/lessons" target="_blank">Sharing lessons by day and night,</a></p>
+  <p><a href="https://example.com/children" target="_blank">With every child, he casts a line,</a></p>
+  <p><a href="https://example.com/spirits" target="_blank">To guide them forth, their spirits shine.</a></p>
 </div>
 
 </body>
 </html>
-
