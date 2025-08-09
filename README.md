@@ -1,43 +1,53 @@
-
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Salbabida of Hope</title>
+
+<!-- Google Fonts for Elegant Cursive -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 <style>
   body { 
-    font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    background: #f0f4f8; 
+    font-family: 'Great Vibes', cursive; 
+    line-height: 1.8; 
+    background: linear-gradient(#d2b48c, #a67b5b); /* Elegant brown gradient */
     padding: 5%; 
     margin: 0;
+    color: #3e2f1c;
   }
   h1 { 
     text-align: center; 
-    color: #2c3e50; 
-    font-size: 2em; 
+    color: #5c3d2e; 
+    font-size: 3em; 
   }
   p { 
-    font-size: 1.1em; 
+    font-size: 1.6em; 
     text-align: center; 
   }
   .link { 
-    color: #2980b9; 
+    color: #8b5e3c; 
     cursor: pointer; 
     text-decoration: underline; 
+  }
+  .link:hover {
+    color: #5c3d2e;
   }
   .hidden { 
     display: none; 
     margin: 10px auto; 
-    padding: 10px; 
-    background: #eaf2f8; 
-    border-left: 4px solid #2980b9; 
+    padding: 15px; 
+    background: rgba(255, 248, 240, 0.8); 
+    border-left: 4px solid #8b5e3c; 
     max-width: 600px; 
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    border-radius: 10px;
   }
   @media (max-width: 600px) {
     body { padding: 15px; }
-    h1 { font-size: 1.5em; }
-    p { font-size: 1em; }
+    h1 { font-size: 2em; }
+    p { font-size: 1.2em; }
   }
 </style>
 <script>
