@@ -14,6 +14,10 @@
     color: #3e2f1c; /* Elegant dark brown text */
   }    
 
+  h1, p, .link, .hidden {     
+    font-family: 'Brush Script MT', cursive; /* Force cursive everywhere */
+  }    
+
   h1 {     
     text-align: center;     
     color: #3e2f1c;     
@@ -29,7 +33,6 @@
     color: #5b3a29;     
     cursor: pointer;     
     text-decoration: underline;     
-    font-family: 'Brush Script MT', cursive;
   }    
 
   .hidden {     
@@ -39,7 +42,6 @@
     background: #f5e6d3;     
     border-left: 4px solid #5b3a29;     
     max-width: 600px;     
-    font-family: 'Brush Script MT', cursive;
   }    
 
   @media (max-width: 600px) {    
