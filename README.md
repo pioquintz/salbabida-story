@@ -1,4 +1,4 @@
-<html>
+html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,6 +44,15 @@
     text-align: center;
     margin: 10px 0;
   }
+
+  a {
+    color: #8b5e3c;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #5c3d2e;
+  }
 </style>
 </head>
 <body>
@@ -52,10 +61,10 @@
   <h1>Salbabida of Hope</h1>
   <p>In a world where hope seems dim and far,</p>
   <p>A grain of kindness shines like a star,</p>
-  <p>Salbabida, a lifeline thrown,</p>
+  <p><a href="https://example.com/salbabida" target="_blank">Salbabida</a>, a lifeline thrown,</p>
   <p>In waters deep, where dreams are sown.</p>
   <br>
-  <p>Efren’s heart, a beacon bright,</p>
+  <p><a href="https://en.wikipedia.org/wiki/Efren_Pe%C3%B1aflorida" target="_blank">Efren</a>’s heart, a beacon bright,</p>
   <p>Sharing lessons by day and night,</p>
   <p>With every child, he casts a line,</p>
   <p>To guide them forth, their spirits shine.</p>
@@ -63,3 +72,4 @@
 
 </body>
 </html>
+
