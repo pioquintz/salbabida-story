@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Salbabida of Hope</title>
 
-<!-- Google Fonts for Elegant Cursive -->
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<!-- Google Font for Pure Cursive -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 <style>
   body { 
@@ -37,11 +37,11 @@
     display: none; 
     margin: 10px auto; 
     padding: 15px; 
-    background: rgba(255, 248, 240, 0.8); 
+    background: rgba(255, 248, 240, 0.85); 
     border-left: 4px solid #8b5e3c; 
     max-width: 600px; 
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2em;
+    font-family: 'Great Vibes', cursive; /* Cursive for hidden text too */
+    font-size: 1.4em;
     border-radius: 10px;
   }
   @media (max-width: 600px) {
@@ -50,6 +50,7 @@
     p { font-size: 1.2em; }
   }
 </style>
+
 <script>
   function toggle(id) {
     var x = document.getElementById(id);
